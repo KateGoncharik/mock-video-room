@@ -10,3 +10,7 @@ const Main = styled.div`
 export const MainWrapper = ({ children }: { children: ReactNode }) => {
   return <Main>{children}</Main>;
 };
+
+export const MainHeader = styled.h1`
+  margin: 10px 20px 20px 0;
+`;

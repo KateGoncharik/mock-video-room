@@ -1,6 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import GlobalStyle from './GlobalStyles.ts';
+import GlobalStyle from './assets/GlobalStyles.ts';
 import { AppRouter } from './Router.tsx';
 import { BrowserRouter } from 'react-router-dom';
 

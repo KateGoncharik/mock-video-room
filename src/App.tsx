@@ -3,11 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { fetchTasks, type Task } from './api/tasks';
 import { Button } from './components/Button';
 import styled from 'styled-components';
-import { MainWrapper } from './components/MainWrapper';
-
-const MainHeader = styled.h1`
-  margin: 10px 20px 20px 0;
-`;
+import { MainHeader, MainWrapper } from './components/MainWrapper';
 
 const TaskList = styled.div`
   display: flex;
