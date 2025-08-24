@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
-import Button from './Button';
-import { MainWrapper } from './MainWrapper';
+import Button from './components/Button';
+import { MainWrapper } from './components/MainWrapper';
 
 export const Room = () => {
   const navigate = useNavigate();

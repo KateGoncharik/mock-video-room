@@ -4,7 +4,7 @@ import type { ReactNode } from 'react';
 const Main = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 0 10%;
+  margin: 1rem 15% 1rem;
 `;
 
 export const MainWrapper = ({ children }: { children: ReactNode }) => {
