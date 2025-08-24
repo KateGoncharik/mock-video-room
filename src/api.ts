@@ -14,11 +14,3 @@ export const fetchTasks = async (limit = 15): Promise<Task[]> => {
   }
   return res.json();
 };
-
-export const fetchTask = async (id: number): Promise<Task> => {
-  const res = await fetch('https://jsonplaceholder.typicode.com/todos/' + id);
-  if (!res.ok) {
-    throw new Error('Task not found');
-  }
-  return res.json();
-};
