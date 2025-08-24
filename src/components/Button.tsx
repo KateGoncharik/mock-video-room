@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Button = styled.button`
+export const Button = styled.button`
   max-width: 150px;
   font-size: 1rem;
   font-weight: 600;
@@ -18,5 +18,3 @@ const Button = styled.button`
     transition: 1s;
   }
 `;
-
-export default Button;

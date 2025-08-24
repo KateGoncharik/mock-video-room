@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { fetchTasks, type Task } from './api/tasks';
-import Button from './components/Button';
+import { Button } from './components/Button';
 import styled from 'styled-components';
 import { MainWrapper } from './components/MainWrapper';
 
