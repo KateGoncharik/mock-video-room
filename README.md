@@ -4,6 +4,9 @@
 
 Two pages: todo list and video room (WebRTC).
 
+  <img src='./src/assets/img/result1.png'>
+  <img src='./src/assets/img/result.png'>
+
 ## Stack
 
 - React 18, Vite, TypeScript
