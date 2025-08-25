@@ -11,7 +11,8 @@ Two pages: todo list and video room (WebRTC).
 
 - React 18, Vite, TypeScript
 - React Router
-- WebRTC (getUserMedia)
+- WebRTC
+- Styled Components
 
 ## Setup
 
